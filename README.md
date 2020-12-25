@@ -16,8 +16,8 @@ npm start
 
 Questions that are available to be processed are
 
-1. **Who was the F1 champion in <year>**
-2. **What's the weather in <London or Viena>**.
+1. **Who was the F1 champion in {year}**
+2. **What's the weather in {London or Viena}**.
 
 In the first question for the field **year** its able to process dynamic values, while the second question is
 implemented with only those two options because getting an API key from Google can be troublesome.
