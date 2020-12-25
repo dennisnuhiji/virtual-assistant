@@ -1,0 +1,27 @@
+{
+  "name": "virtual-assistant",
+  "version": "1.0.0",
+  "description": "Virtual Assistant",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "cross-env ENV=DEV nodemon --exec ts-node -- ./src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denis Nuhiji",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/cors": "^2.8.9",
+    "@types/express": "^4.17.9",
+    "@types/follow-redirects": "^1.13.0",
+    "@types/node": "^14.14.16",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "follow-redirects": "^1.13.1",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
