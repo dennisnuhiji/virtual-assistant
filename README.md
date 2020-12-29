@@ -25,7 +25,7 @@ In the first question for the field **year** its able to process dynamic values,
 implemented with only those two options because getting an API key from Google can be troublesome.
 
 e.g:
-Open Chrome and go to http://localhost:3000/api?question=Who was the champion in 2002? 
+Open Chrome and go to **http://localhost:3000/api?question=Who was the champion in 2002?**
 
 ## Structure
 ```
