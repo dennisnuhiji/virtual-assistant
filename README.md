@@ -1,5 +1,7 @@
 # VIRTUAL ASSISTANT
 
+It's a server that answers questions using different API's to find the answers from. The idea is to be scaled to a level where it would be able to answer questions like already known ALEXA, SIRI, CORTANA and etc..
+
 # Getting started
 
 ## Installing
@@ -21,6 +23,9 @@ Questions that are available to be processed are
 
 In the first question for the field **year** its able to process dynamic values, while the second question is
 implemented with only those two options because getting an API key from Google can be troublesome.
+
+e.g:
+Open Chrome and go to http://localhost:3000/api?question=Who was the champion in 2002? 
 
 ## Structure
 ```
